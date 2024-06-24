@@ -59,8 +59,6 @@
       const USD = result.find(({ cc }) => cc === "USD");
       const EUR = result.find(({ cc }) => cc === "EUR");
 
-      console.log(USD, EUR)
-
       document.getElementById("national_bank").innerHTML = `
       <div class="white-text-glow" style="display: inline-block;">
         <h4>Курс <span style="text-shadow: 0px -1px 20px rgb(255 0 74 / 83%);">НБУ</span> станом на ${ USD.exchangedate }</h4>
