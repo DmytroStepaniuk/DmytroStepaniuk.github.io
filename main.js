@@ -1,5 +1,5 @@
 import { APP } from "./currency.js";
 
 (() => {
-  APP.init();
+  APP.currencyInit();
 })();
