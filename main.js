@@ -1,4 +1,4 @@
-import { CurrencyService } from "currency.js";
+import { CurrencyService } from "./currency.js";
 
 (() => {
   console.log("...");
