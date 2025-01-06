@@ -1,3 +1,6 @@
-'use strict'
+import { CurrencyService } from "./currency.js";
 
-console.log("This is main.js is being loaded.");
+(() => {
+  console.log("...");
+  CurrencyService.init();
+})();
