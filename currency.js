@@ -1,4 +1,4 @@
-const APP = (() => {
+export const APP = (() => {
   var currencyInit = function() {
     (async () => {
       const request = new Request(

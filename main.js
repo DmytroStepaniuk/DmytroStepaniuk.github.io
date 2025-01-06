@@ -1,6 +1,5 @@
-import { CurrencyService } from "./currency.js";
+import { APP } from "./currency.js";
 
 (() => {
-  console.log("...");
-  CurrencyService.init();
+  APP.init();
 })();
